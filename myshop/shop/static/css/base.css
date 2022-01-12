@@ -1,0 +1,156 @@
+*{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+:root{
+    --bg:silver;
+    --header: #ffffff;
+    --subheader: #2200ff;
+    --sidebar: #ff002b;
+    --tx1: black;
+    --tx2: silver;
+    --tx3: black;
+    --tx4: yellow;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color:var(--bg);
+}
+.item img {
+    width: 230px;
+    height: 200px;
+}
+.item{
+    text-align: center;
+    margin: 8px 40px;
+    float: left;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+h3{
+    margin: 0;
+    color: var(--tx1);
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#header, #sidebar{
+    padding: 10px 0;
+    text-align: center;
+}
+#subheader{
+    padding: 10px 0;
+    text-align: right;
+}
+.logo{
+    font-size: 50px;
+}
+.cart{
+    font-size: 30px;
+}
+.product-list{
+    text-align: center;
+}
+
+#header{
+    background-color: var(--header);
+}
+#header a{
+    color: var(--tx1);
+}
+#subheader{
+    background-color: var(--subheader);
+}
+#subheader .cart{
+    color: var(--tx1);
+}
+#sidebar{
+    background-color: var(--sidebar);
+}
+#sidebar a{
+    color: var(--tx2);
+}
+h1{
+    padding: 10px 0;
+    margin: 0;
+    color: var(--tx3);
+    font-size: 30px;
+}
+
+.product-detail{
+    padding: 10px 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.product-detail img {
+    width: 350px;
+    height: 350px;
+}
+
+.cart img{
+    width: 200px;
+    height: 200px;
+}
+.cart td{
+    text-align: center;
+    padding: 0 20px;
+}
+#content{
+    text-align: center;
+}
+table.cart{
+    width: 300px;
+    margin: auto;
+}
+.text-right a{
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    color: var(--tx1);
+    background-color: #540670;
+    border-radius: 30px;
+}
+#subheader .cart a{
+    color: var(--tx2);
+}
+.order-info h3{
+    color:var(--tx3);
+}
+.order-info {
+
+    padding: 10px;
+    width: 400px;
+    margin-right: 150px;
+    text-align:left;
+    float: right;
+    box-sizing: border-box;
+    border: solid;
+}
+
+.order-form{
+    float: left;
+    margin-left: 300px;
+    text-align:right;
+}
+
+#sidebar ul{
+    margin: 0; /* Обнуляем значение отступов */
+    padding-top: 10px; /* Значение полей */
+}
+#sidebar ul li{
+    display: inline;
+    padding: 5px;
+}
+#sidebar li a:hover{
+    color: var(--tx4);
+}
